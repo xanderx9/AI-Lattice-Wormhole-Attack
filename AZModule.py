@@ -45,8 +45,8 @@ def wormhole_attack(public_key):
     return None
 
 # Example Public Key (Replace with real public key)
-example_pubkey = Point(0x79BE667EF9DCBBAC55A06295CE870B07029BFCDB2DCE28D959F2815B16F81798,
-                       0x483ADA7726A3C4655DA4FBFC0E1108A8FD17B448A68554199C47D08FFB10D4B8,
+example_pubkey = Point(0x47bea740ee1314fd1ea17485db8b923c1289605c7f499bd0b42c75225d75fa68,
+                       0xaf82e64f8859a0f7739ec0da647618f7a50c40e657be8bf95cefa3c74254fff6,
                        secp256k1)
 
 result = wormhole_attack(example_pubkey)
